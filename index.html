@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تصميمي - متجر الملفات الرقمية والطلبات الخاصة</title>
+    <!-- استدعاء خط Cairo العربي وحزمة Tailwind CSS عبر الـ CDN لضمان عملها فوراً -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              beige: {
+                50: '#FDFBF7',
+                100: '#F9F6F2',
+                200: '#F5F1EA',
+              },
+              pastel: {
+                orange: '#FFB347',
+                'orange-light': '#FFCC99',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-beige-50">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

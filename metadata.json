@@ -1,0 +1,7 @@
+{
+  "name": "Remix: Tasmeemi - Digital Marketplace",
+  "description": "تصميمي احتياط - نسخة مستقرة ومؤمنة. A professional Arabic digital product marketplace for selling PDF, ZIP, SVG, and images with manual bank transfer verification.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
